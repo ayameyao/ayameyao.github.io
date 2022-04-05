@@ -1,2 +1,0 @@
-# homepage
-Ayameyao's homepage
