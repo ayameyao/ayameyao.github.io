@@ -59,6 +59,18 @@ section h3.section-subheading2 {
 }
 
 
+.profile-img {
+  width: 100%;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+
+
+
 @media (min-width: 768px) {
   section {
     padding: 50px 0;
