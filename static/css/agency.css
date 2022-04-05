@@ -8,7 +8,9 @@ p {
 }
 
 a {
-  color: #ed323e;
+  /*color: #ed323e;*/
+  color: ##0095eb;
+
 }
 
 a:hover {
