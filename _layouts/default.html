@@ -35,20 +35,30 @@
       <div class="container">
         <a class="navbar-brand" href="https://ayameyao.github.io/homepage/">Ayao's Homepage</a>
         
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <!-- <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+        </button> -->
+
+        <button type="button" class="navbar-toggler collapsed"
+                data-toggle="collapse"
+                data-target=".navbar-collapse"
+                aria-expanded="false">
+          <span class="sr-only"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarResponsive">
+        <!-- <div class="collapse navbar-collapse" id="navbarResponsive"> -->
+        <div class="collapse navbar-collapse" aria-expanded="false" style="height: 0px;">
           <ul class="navbar-nav text-uppercase ml-auto">
-            <li class="nav-item" style="font-size: 110%; background-color: #34495e;">
-              <a class="nav-link js-scroll-trigger" href="#about">Home</a>
+            <li class="nav-item active">
+              <a href="#about" data-target="#about"><span>Home</span></a>
             </li>
-            <li class="nav-item" style="font-size: 110%; background-color: #34495e;">
-              <a class="nav-link js-scroll-trigger" href="#stats">Publications</a>
+            <li class="nav-item active">
+              <a href="#publications" data-target="#publications"><span>Publications</span></a>
             </li>
-            <li class="nav-item" style="font-size: 110%; background-color: #34495e;">
-              <a class="nav-link js-scroll-trigger" href="#downloads">Contact</a>
+            <li class="nav-item active">
+              <a href="#contact" data-target="#contact"><span>Contact</span></a>
             </li>
           </ul>
         </div>
