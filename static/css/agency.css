@@ -133,6 +133,16 @@ img::-moz-selection {
   background-color: #373435;
 }
 
+#mainNav .navbar-default {
+    background: #fff;
+    box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
+}
+
+#mainNav .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+}
+
 #mainNav .navbar-toggler {
   font-size: 12px;
   right: 0;
