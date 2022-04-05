@@ -154,10 +154,18 @@ img::-moz-selection {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-#mainNav .navbar-brand {
+/*#mainNav .navbar-brand {
   color: #ed323e;
   font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
 }
+*/
+#mainNav .navbar-brand {
+  height: inherit;
+  line-height: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
   color: #fec503;
