@@ -87,6 +87,11 @@ section h3.section-subheading2 {
     color: #3170A5;
 }
 
+.pub-publication {
+    color: #090;
+    font-size: 1rem;
+}
+
 
 @media (min-width: 768px) {
   section {
