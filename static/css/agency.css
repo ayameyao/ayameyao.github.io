@@ -80,6 +80,12 @@ section h3.section-subheading2 {
 }
 */
 
+.pub-authors {
+    line-height: normal;
+    font-style: normal;
+    font-size: 1rem;
+    color: #3170A5;
+}
 
 
 @media (min-width: 768px) {
