@@ -80,6 +80,14 @@ section h3.section-subheading2 {
 }
 */
 
+.pub-title {
+    font-size: 1.1rem;
+    line-height: 1.25;
+    color: #313131;
+    font-family: 'Lato', sans-serif;
+    text-rendering: optimizeLegibility;
+}
+
 .pub-authors {
   line-height: normal;
   font-style: normal;
