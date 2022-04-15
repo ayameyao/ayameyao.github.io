@@ -98,6 +98,9 @@ section h3.section-subheading2 {
 .pub-publication {
   color: #090;
   font-size: 1rem;
+  box-sizing: border-box;
+  font-family: inherit;
+  line-height: inherit;
 }
 
 .pub-link{
