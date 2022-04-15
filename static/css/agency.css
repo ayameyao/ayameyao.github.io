@@ -81,16 +81,31 @@ section h3.section-subheading2 {
 */
 
 .pub-authors {
-    line-height: normal;
-    font-style: normal;
-    font-size: 1rem;
-    color: #3170A5;
+  line-height: normal;
+  font-style: normal;
+  font-size: 1rem;
+  color: #3170A5;
 }
 
 .pub-publication {
-    color: #090;
-    font-size: 1rem;
+  color: #090;
+  font-size: 1rem;
 }
+
+.pub-link{
+    color: #0095eb !important;
+    border-color: #0095eb !important;
+    background-color: transparent !important;
+    transition: all .5s;
+    background: #0095eb !important;
+    padding: 1px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+
 
 
 @media (min-width: 768px) {
