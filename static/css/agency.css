@@ -96,6 +96,7 @@ section h3.section-subheading2 {
     color: #0095eb !important;
     border-color: #0095eb !important;
     background-color: transparent !important;
+    border: 1px solid transparent;
     transition: all .5s;
     background: #0095eb !important;
     padding: 1px 5px;
