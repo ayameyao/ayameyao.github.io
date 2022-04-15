@@ -80,6 +80,15 @@ section h3.section-subheading2 {
 }
 */
 
+.network-icon {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    list-style: none;
+    padding: 0px;
+}
+
 .pub-title {
     font-size: 1.1rem;
     line-height: 1.25;
