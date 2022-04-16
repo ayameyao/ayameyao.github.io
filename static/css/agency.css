@@ -86,15 +86,16 @@ section h3.section-subheading2 {
   padding-left: 15px;
 }
 
-/*.profile-img {
-  width: 100%;
-  float: left;
-  position: relative;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
+.profile-name{
+  font-size: 1.75em;
+  font-weight: 300;
+  color: #000000;
+  margin: 20px 0 10px 0;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.25;
+  text-rendering: optimizeLegibility;
+  box-sizing: border-box;
 }
-*/
 
 .network-icon {
     display: inline-flex;
