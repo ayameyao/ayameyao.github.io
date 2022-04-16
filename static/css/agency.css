@@ -86,7 +86,7 @@ section h3.section-subheading2 {
   padding-left: 15px;
 }
 
-.profile-name{
+.porfile-name{
   font-size: 1.75em;
   font-weight: 300;
   color: #000000;
@@ -95,6 +95,16 @@ section h3.section-subheading2 {
   line-height: 1.25;
   text-rendering: optimizeLegibility;
   box-sizing: border-box;
+}
+
+.porfile-student{
+    font-size: 1rem;
+    font-weight: 300;
+    color: rgba(0,0,0, 0.54);
+    margin: 0px 0 10px 0;
+    line-height: 1.25;
+    font-family: 'Lato', sans-serif;
+    text-rendering: optimizeLegibility;
 }
 
 .network-icon {
