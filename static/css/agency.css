@@ -107,7 +107,7 @@ section h3.section-subheading2 {
     text-rendering: optimizeLegibility;
 }
 
-.network-icon {
+#profile .network-icon {
     font-size: 36px;
     display: inline-flex;
     flex-direction: row;
@@ -115,6 +115,10 @@ section h3.section-subheading2 {
     margin-top: 30px;
     list-style: none;
     padding: 0px;
+}
+
+#profile .network-icon li:hover {
+  transform: scale(1.2);
 }
 
 .pub-title {
