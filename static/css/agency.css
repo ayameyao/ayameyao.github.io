@@ -112,9 +112,12 @@ section h3.section-subheading2 {
     display: inline-flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 30px;
     list-style: none;
-    padding: 0px;
+    margin: 0 0 0 70px;
+}
+
+#profile .network-icon li{
+  padding-right: 15px;
 }
 
 #profile .network-icon li:hover {
