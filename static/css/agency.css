@@ -283,14 +283,24 @@ img::-moz-selection {
 
 @media (min-width: 992px) {
   #mainNav {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-shadow: 0 3px 3px #ddd;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
     background-color: transparent;
   }
+
+  #mainNav a{
+    color: #2b2b2b;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400 !important;
+    line-height: 1.25 !important;
+    text-rendering: optimizeLegibility !important;
+  }
+
   #mainNav .navbar-brand {
     font-size: 1.75em;
     -webkit-transition: all 0.3s;
