@@ -9,7 +9,7 @@ p {
 
 a {
   /*color: #ed323e;*/
-  color: ##0095eb;
+  color: #0095eb;
 
 }
 
@@ -108,6 +108,7 @@ section h3.section-subheading2 {
 }
 
 .network-icon {
+    font-size: 36px;
     display: inline-flex;
     flex-direction: row;
     flex-wrap: wrap;
