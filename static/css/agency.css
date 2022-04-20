@@ -2,19 +2,7 @@ body {
   overflow-x: hidden;
   font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1.125rem;
-  margin-top: 71px;
 }
-
-/*body {
-  font-family: inherit;
-  font-size: 1rem;
-  line-height: inherit;
-  color: inherit;
-  background-color: #fff;
-  margin-top: 71px; 
-  padding-top: 0;
-  counter-reset: captions;
-}*/
 
 p {
   line-height: 1.75;
